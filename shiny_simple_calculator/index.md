@@ -1,0 +1,82 @@
+---
+title       : Shiny App Simple Calculator 
+subtitle    : Slidify Presentation
+author      : Somide Olaoye A
+job         : Data Scientist
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+Simple Calculator is a Shiny App that allow users to perform basic mathematical operations.
+
+The application can perform basic mmathematical operations listed below;
+
+1. Division (/)
+2. Multiplication (*)
+3. Subtraction (-)
+4. Addition (+)
+
+--- .class #id 
+
+## How It Works
+
+Step 1. Select a mathematical operation eg. Division, Multiplication, Subtraction or Addition
+
+Step 2. Input your first value in the provided input box
+
+Step 3. Input your second value in the provided input box
+
+--- .class #id 
+
+## Sample Code Logic
+
+
+```r
+a <- 5 # where a is inputed first value
+b <- 2 # where b is inputed second value
+paste("Division (/) = ", a/b)
+```
+
+```
+## [1] "Division (/) =  2.5"
+```
+
+```r
+paste("Multiplication (*) = ", a*b)
+```
+
+```
+## [1] "Multiplication (*) =  10"
+```
+
+```r
+paste("Subtraction (-) = ", a/b)
+```
+
+```
+## [1] "Subtraction (-) =  2.5"
+```
+
+```r
+paste("Addition (+) = ", a/b)
+```
+
+```
+## [1] "Addition (+) =  2.5"
+```
+
+--- .class #id 
+
+## Conclusion
+
+The end product of the app was published on Shiny Server and can be accessed via the link below;
+
+https://kamparia.shinyapps.io/shiny_app_coursera/
+
+--- .class #id 
